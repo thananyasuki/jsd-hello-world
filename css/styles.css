@@ -391,7 +391,7 @@ body {
 	background-image: url("../images/participant-photo.png");
 }
 #participant-15 .participant-name::before {
-	/* content: "Your Name Here"; */
+  content: "15_Kamolthep(Mik)";
 }
 #participant-15 .participant-quote::before {
 	/* content: "Your inspirational quote here." */
