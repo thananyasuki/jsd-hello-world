@@ -598,13 +598,13 @@ body {
 	background-color: white;
 }
 #participant-30 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+  background-image: url("../images/image.jpg");
 }
 #participant-30 .participant-name::before {
-	/* content: "Your Name Here"; */
+  content: "30_Phatnaree(Aing)";
 }
 #participant-30 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "I'm cooked";
 }
 
 /* Next participant */
