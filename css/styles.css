@@ -273,16 +273,95 @@ body {
 
 /* Next participant */
 #participant-13 {
-	background-color: white;
+  position: relative;
+  border-radius: 16px;
+  background: white;
+  padding: 10px;
+  overflow: visible;
+  transition: transform 0.4s ease;
 }
+
+#participant-13::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: inherit;
+  background: linear-gradient(
+    120deg,
+    #ffcb05,
+    #ff7b00,
+    #ffcb05,
+    #ff7b00
+  );
+  background-size: 300% 300%;
+  filter: blur(10px);
+  animation: glow-normal 4s linear infinite;
+  z-index: 1;
+}
+
+#participant-13 > * {
+  position: relative;
+  z-index: 2;
+}
+
+#participant-13:hover {
+  transform: rotateY(15deg) scale(1.05);
+}
+
+#participant-13:hover::before {
+  background: linear-gradient(
+    120deg,
+    #00c8ff,
+    #0077ff,
+    #00eaff,
+    #0099ff
+  );
+  animation: glow-blue 2.2s linear infinite;
+}
+
+
+@keyframes glow-normal {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes glow-blue {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
 #participant-13 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+  background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
 }
+
 #participant-13 .participant-name::before {
-	/* content: "Your Name Here"; */
+  content: "KOI KING";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  display: block;
 }
+
+
 #participant-13 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "Splash Attack — Power 1%";
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  display: block;
 }
 
 /* Next participant */
