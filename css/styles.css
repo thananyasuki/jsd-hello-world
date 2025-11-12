@@ -227,16 +227,19 @@ body {
 
 /* Next participant */
 #participant-9 {
-	background-color: white;
+  background-color: rgb(255, 197, 197);
+  border: solid #f89b31;
 }
 #participant-9 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+  background-image: url("../images/unnamed.jpg");
+  border: solid #ff0c0c;
 }
 #participant-9 .participant-name::before {
-  content: "09_Chutidet(ice)";
+  content: "Chutidet_ice";
 }
 #participant-9 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "I will to become Godzilla";
+  color: #333;
 }
 
 /* Next participant */
@@ -455,17 +458,31 @@ body {
 }
 
 /* Next participant */
+@keyframes pulse-glow {
+  0% { box-shadow: 5px 3px rgba(177, 0, 0, 1), -5px -3px rgba(177, 0, 0, 0.5); }
+  25% { box-shadow: -3px 5px rgba(77, 0, 177, 1), 3px -5px rgba(77, 0, 177, 0.5); }
+  50% { box-shadow: -5px -3px rgba(0, 71, 177, 1), 5px 3px rgba(0, 71, 177, 0.5); }
+  75% { box-shadow: 3px -5px rgba(0, 145, 177, 1), -3px 5px rgba(0, 145, 177, 0.5); }
+  100% { box-shadow: 5px 3px rgba(177, 0, 0, 1), -5px -3px rgba(177, 0, 0, 0.5); }
+}
 #participant-19 {
-	background-color: white;
+  /* background-color: white; */
+  background-image: url("../images/19_methus_bg_pic-1.gif");
+  background-size: cover;
+  border: solid 1px black;
+  animation: pulse-glow 2s infinite normal;
 }
 #participant-19 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+  background-image: url("../images/19_methus_pic-1.png"), linear-gradient(145deg , rgba(255, 255, 255, 0), rgba(77, 0, 177, 0.4), rgba(77, 0, 177, 0.9), rgba(77, 0, 177, 1));
+  border: none;
 }
 #participant-19 .participant-name::before {
   content: "19_Methus(Kanoon)";
+  color: #FFF;
 }
 #participant-19 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "From small beginnings come great things.";
+  color: #dfdfdf;
 }
 
 /* Next participant */
