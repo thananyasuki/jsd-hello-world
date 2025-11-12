@@ -442,6 +442,9 @@ body {
 }
 #participant-18 .profile-photo {
   background-image: url("/images/cow.jpg");
+  :hover{
+    scale: 2;
+  }
 }
 #participant-18 .participant-name::before {
   content: "18_Manlika(Aom/อ้อม)";
