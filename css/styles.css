@@ -102,30 +102,36 @@ body {
 
 /* First participant */
 #participant-1 {
-  background-color: white;
+  background-color: rgb(0, 195, 255);
+  border: 3px solid #ff0000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
 }
 #participant-1 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/GGGCOM.PNG");
 }
 #participant-1 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Anuvut(บอย)";
 }
 #participant-1 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "consistency is the key 🔑 ⚡️฿⚡️";
 }
 
 /* Next participant */
 #participant-2 {
-  background-color: white;
+  background-color: #e0f7fa;
+  border: 3px solid #00796b;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
 }
 #participant-2 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/chairat-photo.JPG");
 }
 #participant-2 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Chairat(Jiab)";
 }
 #participant-2 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Live in the moment 😊";
 }
 
 /* Next participant */
@@ -133,10 +139,10 @@ body {
   background-color: white;
 }
 #participant-3 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("/images/Frame\ 4.png");
 }
 #participant-3 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "03_Chalisa (Mae)";
 }
 #participant-3 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -150,7 +156,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-4 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "04_Chalothorn(Som/ส้ม)";
 }
 #participant-4 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -172,72 +178,105 @@ body {
 
 /* Next participant */
 #participant-6 {
-  background-color: white;
+	background-image: url("../images/blue_flame.gif");
+  border: 3px solid #000000;
 }
 #participant-6 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+	background-image: url("../images/rice-shower-eevee-v0-3ehjz2r3bn5f1.jpg");
 }
 #participant-6 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "06_Chanapoom(Poom/ภูมิ)";
 }
 #participant-6 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "The Power Of The Darkside~";
 }
 
 /* Next participant */
 #participant-7 {
-  background-color: white;
+  background-color: #e0f7fa;
+  border: 3px solid #00796b;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 #participant-7 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/fd763e2c-9dac-407e-9f14-f8cb07c599d0.jpeg");
 }
 #participant-7 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Chut";
 }
 #participant-7 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Everything is gone";
 }
 
 /* Next participant */
 #participant-8 {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(../images/bg.png);
+   background-size: cover;
+  background-position: center;
+  border: 3px solid yellow;
+  box-shadow: 4px 4px 10px rgb(243, 146, 0);
+  border-radius: 30px;
 }
 #participant-8 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/NameBright\ -\ Coming\ Soon.jpg");
+  border: 2px solid #333;
 }
 #participant-8 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "08_chettha(aek)";
+  color: black;
 }
 #participant-8 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "i'm comming soon";
+  color: black;
 }
 
 /* Next participant */
 #participant-9 {
-  background-color: white;
+  background-color: rgb(255, 197, 197);
+  border: solid #f89b31;
 }
 #participant-9 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/unnamed.jpg");
+  border: solid #ff0c0c;
 }
 #participant-9 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Chutidet_ice";
 }
 #participant-9 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "I will to become Godzilla";
+  color: #333;
 }
 
 /* Next participant */
 #participant-10 {
-  background-color: white;
+  background-color: rgb(255, 185, 171);
+  border: 3px solid rgb(240, 157, 240);
+  box-shadow: 0 4px 10px goldenrod;
+  border-radius: 15px;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 #participant-10 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/jack-profile.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 10px auto;
+  box-shadow: 0 0 15px gold;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from { box-shadow: 0 0 25px gold; }
+  to { box-shadow: 0 0 25px violet; }
 }
 #participant-10 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Chutikarn Kintorn";
 }
 #participant-10 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "อยู่เฉยๆ ก็สบายล่ะ"
 }
 
 /* Next participant */
@@ -259,41 +298,119 @@ body {
   background-color: white;
 }
 #participant-12 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/12_isares.JPG");
 }
 #participant-12 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "isares(Na-eem)";
 }
 #participant-12 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "The best way to predict the future is to create it.";
 }
 
 /* Next participant */
 #participant-13 {
-  background-color: white;
+  position: relative;
+  border-radius: 16px;
+  background: white;
+  padding: 10px;
+  overflow: visible;
+  transition: transform 0.4s ease;
 }
+
+#participant-13::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: inherit;
+  background: linear-gradient(120deg, #ffcb05, #ff7b00, #ffcb05, #ff7b00);
+  background-size: 300% 300%;
+  filter: blur(10px);
+  animation: glow-normal 4s linear infinite;
+  z-index: 1;
+}
+
+#participant-13 > * {
+  position: relative;
+  z-index: 2;
+}
+
+#participant-13:hover {
+  transform: rotateY(15deg) scale(1.05);
+}
+
+#participant-13:hover::before {
+  background: linear-gradient(120deg, #00c8ff, #0077ff, #00eaff, #0099ff);
+  animation: glow-blue 2.2s linear infinite;
+}
+
+@keyframes glow-normal {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glow-blue {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 #participant-13 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
 }
+
 #participant-13 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "KOI KING";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  display: block;
 }
+
 #participant-13 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Splash Attack — Power 1%";
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  display: block;
 }
 
 /* Next participant */
 #participant-14 {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(https://i.pinimg.com/originals/1f/0b/a3/1f0ba36bc496cdfb9e87b480b11adc94.gif);
 }
 #participant-14 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://i.pinimg.com/736x/0a/2c/35/0a2c35f0a8ad809a941cb17c2fe532f0.jpg");
 }
 #participant-14 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "14_Jirapat(pang)";
 }
 #participant-14 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Nana korobi ya oki.";
+  /* "no matter how manytimes you fail,always rise again." */
 }
 
 /* Next participant */
@@ -304,7 +421,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-15 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "15_Kamolthep(Mik)";
 }
 #participant-15 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -318,7 +435,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-16 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "16_krittiphong(krit)";
 }
 #participant-16 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -332,7 +449,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-17 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "17_KROEKPOL";
 }
 #participant-17 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -340,30 +457,66 @@ body {
 
 /* Next participant */
 #participant-18 {
-  background-color: white;
+  background-color: rgb(38, 168, 191);
+  border: solid #333;
 }
 #participant-18 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("/images/cow.jpg");
 }
 #participant-18 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "18_Manlika(Aom/อ้อม)";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #participant-18 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "โชคดีมีชัย โชคชัยมีวัว🐮";
+  color: #e0f7fa;
 }
 
 /* Next participant */
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 5px 3px rgba(177, 0, 0, 1), -5px -3px rgba(177, 0, 0, 0.5);
+  }
+  25% {
+    box-shadow: -3px 5px rgba(77, 0, 177, 1), 3px -5px rgba(77, 0, 177, 0.5);
+  }
+  50% {
+    box-shadow: -5px -3px rgba(0, 71, 177, 1), 5px 3px rgba(0, 71, 177, 0.5);
+  }
+  75% {
+    box-shadow: 3px -5px rgba(0, 145, 177, 1), -3px 5px rgba(0, 145, 177, 0.5);
+  }
+  100% {
+    box-shadow: 5px 3px rgba(177, 0, 0, 1), -5px -3px rgba(177, 0, 0, 0.5);
+  }
+}
 #participant-19 {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("../images/19_methus_bg_pic-1.gif");
+  background-size: cover;
+  border: solid 1px black;
+  animation: pulse-glow 2s infinite normal;
 }
 #participant-19 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/19_methus_pic-1.png"),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0),
+      rgba(77, 0, 177, 0.4),
+      rgba(77, 0, 177, 0.9),
+      rgba(77, 0, 177, 1)
+    );
+  border: none;
 }
 #participant-19 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "19_Methus(Kanoon)";
+  color: #fff;
 }
 #participant-19 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "From small beginnings come great things.";
+  color: #dfdfdf;
 }
 
 /* Next participant */
@@ -374,7 +527,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-20 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "20_Mullika(Ying)";
 }
 #participant-20 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -388,24 +541,52 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-21 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "21_Narathorn(Boss)";
 }
 #participant-21 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
 
 /* Next participant */
+
 #participant-22 {
-  background-color: white;
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-color: #e0f7fa;
+  border: 3px solid #ccd3e5;
+  box-shadow: 1px 0px 10px 7px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
 }
+
+#participant-22:hover {
+  background-image: url("../images/bg2.jpg");
+  /* background-color: #e0f7fa; */
+  border: 3px solid #bdbd06;
+  box-shadow: 1px 50px 100px rgba(192, 228, 11, 0.4);
+  border-radius: 15px;
+  transform: rotate(-360deg);
+}
+
 #participant-22 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/man-picture.png");
+  border-color: #333;
 }
+
+#participant-22 .profile-photo:hover {
+  background-image: url("../images/man-picture2.png");
+  border-color: #333;
+}
+
 #participant-22 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "🚀22_natee(Man)";
 }
 #participant-22 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "The best way to predict your future is to create it.";
+}
+#participant-22 .profile-photo:hover {
+  transform: scale(2);
+  transform: rotate3d();
+  box-shadow: 0 4px 10px rgba(123, 197, 3, 0.6);
 }
 
 /* Next participant */
@@ -416,24 +597,24 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-23 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "23_Nattha(Game/เกม)";
 }
 #participant-23 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Your inspirational quote here.";
 }
 
 /* Next participant */
 #participant-24 {
-  background-color: white;
+  background-color: mediumseagreen;
 }
 #participant-24 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("/images/cat.jpg");
 }
 #participant-24 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "24_Navaporn(Eve)";
 }
 #participant-24 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Dance & Flip";
 }
 
 /* Next participant */
@@ -444,24 +625,44 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-25 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "25_Nuttanon (Tom/ต้อม)";
 }
 #participant-25 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
 
 /* Next participant */
+
+
 #participant-26 {
-  background-color: white;
+	background-color: white;
+  background-image: url(/images/background\ onep.gif) ;
+  background-size: cover;
+}
+#participant-26:hover .profile-photo {
+  visibility: hidden;
+}
+#participant-26:hover  {
+	background-image: url(../images/gear-5-one-piece.gif);
 }
 #participant-26 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+	background-image: url("../images/luffy.webp");
 }
+
 #participant-26 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "26_Oassalam(Us)";
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 }
 #participant-26 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+	content: "Rise and grind.";
+  color:rgb(255, 255, 255);
+  /* text-shadow: 2px 2px 6px rgba(0,0,0,0.9); */
+  background-color: rgba(0,0,0,0.5); /* ดำโปร่ง 50% */
+  padding: 2.5px 5px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 /* Next participant */
@@ -486,7 +687,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-28 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "28_Pawarisa(Mew)";
 }
 #participant-28 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -500,7 +701,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-29 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "29_Phachara(tle)";
 }
 #participant-29 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -511,13 +712,13 @@ body {
   background-color: white;
 }
 #participant-30 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/image.jpg");
 }
 #participant-30 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "30_Phatnaree(Aing)";
 }
 #participant-30 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "I'm cooked";
 }
 
 /* Next participant */
@@ -528,7 +729,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-31 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "31_Pichaya(Boon)";
 }
 #participant-31 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -542,7 +743,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-32 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "32_Patchara(Itt)";
 }
 #participant-32 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -570,7 +771,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-34 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "34_Rathanont (Ardel)";
 }
 #participant-34 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -584,7 +785,8 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-35 .participant-name::before {
-  /* content: "Your Name Here"; */
+  font-size: 13px;
+  content: "35_Rungarun\00A0(Mameaw)";
 }
 #participant-35 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -598,10 +800,10 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-36 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "36_Sirada(Milk)";
 }
 #participant-36 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Code first, panic later.";
 }
 
 /* Next participant */
@@ -612,7 +814,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-37 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "37_Sirirat(๋Juang)";
 }
 #participant-37 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -620,16 +822,20 @@ body {
 
 /* Next participant */
 #participant-38 {
-  background-color: white;
+  border: solid rgb(160, 0, 0) 3px;
+  background-color: rgb(32, 32, 134);
+  background-image: url(https://www.animationsoftware7.com/img/agifs/snow02.gif);
 }
 #participant-38 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://media1.tenor.com/m/4wdAulZ7It8AAAAd/gachimuchi-christmas.gif");
 }
 #participant-38 .participant-name::before {
-  /* content: "Your Name Here"; */
+  color: #bdbdbd;
+  content: "Mag(แม็ก)";
 }
 #participant-38 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  color: #e9e9e9;
+  content: "ท้อแท้แต่อย่าท้อถอย ให้รูปพี่ Aniki เป็นกำลังใจ";
 }
 
 /* Next participant */
@@ -640,7 +846,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-39 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "39_Supawith(Pann)";
 }
 #participant-39 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -648,16 +854,22 @@ body {
 
 /* Next participant */
 #participant-40 {
-  background-color: white;
+  background-color: rgb(129, 23, 161);
+  border: 3px solid #973ec0;
+  box-shadow: 0 4px 10px rgba(35, 4, 43, 0.4);
+  border-radius: 15px;
 }
 #participant-40 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/war.PNG");
+  border: 2px solid rgb(19, 1, 31);
 }
 #participant-40 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Tarm(ธาม)";
+  color: white;
 }
 #participant-40 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Yem";
+  color: white;
 }
 
 /* Next participant */
@@ -668,7 +880,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-41 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "41_Thananya(Mail)";
 }
 #participant-41 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -701,10 +913,10 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-43 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "43_Veerakarn (V)";
 }
 #participant-43 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "ธรรมะแท้ ไม่มีคำปลอบใจ";
 }
 
 /* Next participant */
@@ -715,7 +927,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-44 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "44_Warissara";
 }
 #participant-44 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -729,7 +941,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-45 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "45_Worapon(EM)";
 }
 #participant-45 .participant-quote::before {
   /* content: "Your inspirational quote here." */
@@ -754,19 +966,58 @@ body {
 
 /* Next participant */
 #participant-47 {
-  background-color: white;
+  background-color: #333;
+  border-radius: 0;
+  cursor: not-allowed;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-left: 0.25rem gold solid;
+  border-bottom: 0.25rem #6f00ff solid;
+  border-right: transparent;
+  border-top: transparent;
+  box-shadow: 0 2px 2px 0 rgba(255, 215, 0, 0.3);
 }
 
 #participant-47 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  margin-top: 0.5rem;
+  background-image: url("https://introduction-to-web-application.vercel.app/profile.jpg");
+  clip-path: polygon(
+    evenodd,
+    35.75% 25.45%,
+    63.17% 26.81%,
+    73.25% 10.5%,
+    83.96% 35.5%,
+    89.23% 47.8%,
+    84.41% 69.9%,
+    73.25% 85.5%,
+    60.75% 85.5%,
+    60.75% 85.5%,
+    35.75% 85.5%,
+    35.75% 85.5%,
+    23.25% 85.5%,
+    12.54% 69.9%,
+    9.95% 52.7%,
+    12.54% 35.5%,
+    24.15% 10.5%
+  );
 }
 
 #participant-47 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "John Doe";
+  color: gold;
+  font-weight: 600;
+  font-size: 1.25rem;
+  font-family: monospace;
+  text-shadow: 2px 2px #6f00ff;
 }
 
 #participant-47 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Kindness is the ultimate strength. 😎";
+  color: gold;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 300;
+  text-shadow: 0.5px 0.25px #6f00ff;
 }
 
 /* Next participant */
