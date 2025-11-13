@@ -492,9 +492,14 @@ content: "17_KROEKPOL";
 #participant-18 {
   background-color: rgb(38, 168, 191);
   border: solid #333;
+  animation: pulse-glow 2s infinite normal;
 }
+
 #participant-18 .profile-photo {
   background-image: url("/images/cow.jpg");
+}
+#participant-18 .profile-photo:hover{
+  transform: scale(1.5);
 }
 #participant-18 .participant-name::before {
   content: "18_Manlika(Aom/อ้อม)";
