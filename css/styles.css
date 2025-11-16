@@ -983,8 +983,8 @@ content: "17_KROEKPOL";
   background-size: cover;
   border-radius: 10px;
   text-align: center;
-border: 3.2px solid #02fbff;
- animation: twoColorBorder 2s linear infinite;
+  border: 3.2px solid #02fbff;
+  animation: twoColorBorder 2s linear infinite;
 }
 
 @keyframes twoColorBorder {
