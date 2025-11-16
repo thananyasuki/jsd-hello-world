@@ -979,17 +979,83 @@ content: "17_KROEKPOL";
 
 /* Next participant */
 #participant-41 {
-  background-color: white;
+  background-image: url("../images/41_galaxy.gif");
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+border: 3.2px solid #02fbff;
+ animation: twoColorBorder 2s linear infinite;
 }
+
+@keyframes twoColorBorder {
+  0%   { border-color: #63fcfc #f220eb #63fcfc #f220eb; }
+  50%  { border-color: #f220eb #63fcfc #f220eb #63fcfc; }
+  100% { border-color: #63fcfc #f220eb #63fcfc #f220eb; }
+}
+
+
+
+#participant-41:hover {
+  background-image: url("../images/aespa_girls__winter.gif");
+  border: 3.1px solid #ff0000;
+  animation: rainbowBorder 4s linear infinite;
+}
+
+@keyframes rainbowBorder {
+  0%   { border-color: #ff0000 #00ff00 #0000ff #ffff00; }
+  25%  { border-color: #00ff00 #0000ff #ffff00 #ff0000; }
+  50%  { border-color: #0000ff #ffff00 #ff0000 #00ff00; }
+  75%  { border-color: #ffff00 #ff0000 #00ff00 #0000ff; }
+  100% { border-color: #ff0000 #00ff00 #0000ff #ffff00; }
+}
+
 #participant-41 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/41_winter.png"),
+  linear-gradient(145deg, rgb(253, 249, 249), rgb(255, 255, 11));
+  box-shadow: 0 0 10px #000000, 0 0 15px #ffffff;
 }
+#participant-41 .profile-photo:hover {
+  background-image: url("../images/aespa_Girls.gif");
+  border-color: #fa43f1;
+}
+
+#participant-41:hover .profile-photo {
+	 cursor: pointer;
+	 opacity: 0;
+}
+#participant-41 .profile-photo:hover {
+	box-shadow: 0 0 10px #f67bff, 0 0 13px #ffffff;
+  opacity: 1;
+}
+
 #participant-41 .participant-name::before {
   content: "41_Thananya(Mail)";
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ff00cc, #00ffff, #7700ff);
+  background-size: 300% 300%;
+  background-position: 0% 50%;
+  animation: gradientMove 5s ease infinite;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+@keyframes gradientMove {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 #participant-41 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "All the stars are closer." ;
+  color: #fffb05;
 }
+#participant-41:hover .participant-quote::before {
+  content: "All the stars are closer." ;
+  color: #ffffff;
+}
+
 
 /* Next participant */
 #participant-42 {
